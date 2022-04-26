@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Doctor Appointment</string>
+    <string name="hello_blank_fragment">Appointment</string>
+    <string name="doctors_dashboard">Doctors Dashboard</string>
+    <string name="patient_dashboard">Patient Dashboard</string>
+    <string name="hello_blank_fragment2">Appointment 2</string>
+    <string name="medicalReport">Welcome To</string>
+    <string name="testReport">Test report</string>
+    <string name="profile1">Profile</string>
+    <string name="time_slot">Time Slot</string>
+    <string name="app_z">CardRender</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="fName">FirstName</string>
+    <string name="button">Button</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_spel">Enter Your specialization</string>
+    <string name="enter_exp">How Many Years Experience?</string>
+    <string name="select_date">Select Date</string>
+    <string name="select">Select Department</string>
+    <string name="contact_book">Patients Details</string>
+    <string name="enter_contact_no">Enter Contact No</string>
+    <string name="enter_emai">Enter Email</string>
+    <string name="add_to_sqlite">Add to SQLITE</string>
+    <string name="todo">TODO</string>
+    <string name="dr_rockey_katheria">Dr. Rockey Katheria</string>
+    <string name="_12_years_exp">12 Years Exp.</string>
+    <string name="md_dm_cardio">MD DM (Cardio)</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="status_change">Status Change</string>
+    <string name="doctor_login">Doctor Login</string>
+    <string name="enter_your_username">Enter Your Username</string>
+    <string name="login">Login</string>
+    <string name="you_don_t_have_account_sign_up">You Don\'t Have Account? Sign Up</string>
+    <string name="doctor_registration">Doctor Registration</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="re_enter_your_password">Re-Enter Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="your_existing_doctor_login">Your Existing Doctor? Login</string>
+    <string name="patient_login">Patient Login</string>
+
+
+
+    <string name="you_don_have_account_sign_up">You Don\'t Have Account? Sign Up</string>
+    <string name="patient_registration">Patient Registration</string>
+
+    <string name="enter_your_mobile">Enter Your Mobile Number</string>
+
+
+
+    <string name="your_existing_patient_login">Your Existing Patient? Login</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="doctor_appointment_system">Doctor Appointment System</string>
+    <string name="demo">Demo</string>
+    <string name="patient_name">Patient Name :</string>
+    <string name="health_issue">Health Issue :</string>
+    <string name="mobile_no">Mobile No :</string>
+    <string name="time">Time :</string>
+    <string name="status">Status:</string>
+    <string name="date">Date :</string>
+    <string name="change_status">Change Status</string>
+    <string name="appointment_booking">Appointment Booking</string>
+    <string name="cardiology">Cardiology</string>
+    <string name="psychiatry">Psychiatry</string>
+    <string name="covid_consultation">Covid Consultation</string>
+    <string name="paediatrics">Paediatrics</string>
+    <string name="dermatology">Dermatology</string>
+    <string name="general_physician">General Physician</string>
+    <string name="enter_your_patient_name">Enter Your Patient Name</string>
+    <string name="enter_your_health_issue">Enter Your Health Issue</string>
+    <string name="enter_your_mobile_no">Enter Your Mobile No</string>
+    <string name="book_now">Book Now</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="welcome_to_dr">Welcome To Dr.</string>
+    <string name="op_dashboard">OP dashboard</string>
+    <string name="completed_op">Completed OP:</string>
+    <string name="pending_op">Pending OP:</string>
+    <string name="_12_03_2022">25/03/2022</string>
+    <string name="_13_03_2022">26/03/2022</string>
+    <string name="_14_03_2022">27/03/2022</string>
+    <string name="_15_03_2022">28/03/2022</string>
+    <string name="pending_op_list">Pending OP List</string>
+    <string name="profile">Profile</string>
+    <string name="name1">Name :</string>
+    <string name="dr_xxxxxxxx">Dr. XXXXXXXX</string>
+    <string name="specialization">Specialization :</string>
+    <string name="abc_xyz_com">abc@xyz.com</string>
+    <string name="contact_no">Contact No :</string>
+    <string name="username">username :</string>
+    <string name="password">Password :</string>
+    <string name="sample_data">***************</string>
+    <string name="_918889990009">+918889990009</string>
+    <string name="experience">Experience :</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="medical_report">Medical Report</string>
+    <string name="documents">Documents</string>
+    <string name="medical_prescription">Medical Prescription</string>
+    <string name="date1">Date</string>
+    <string name="book_appointment1">Book appointment</string>
+    <string name="auto_image_slider_tutorial">Auto Image Slider Tutorial</string>
+    <string name="booking_status">Booking Status</string>
+</resources>

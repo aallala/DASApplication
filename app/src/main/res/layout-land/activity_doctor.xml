@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_white"
+    tools:context=".PatientActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="690dp"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/booking1"
+        android:layout_width="42dp"
+        android:layout_height="82dp"
+        android:layout_above="@+id/booking"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="43dp"
+        android:src="@drawable/homea" />
+
+    <ImageView
+        android:id="@+id/booking"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_above="@+id/booking2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/completed" />
+
+    <ImageView
+        android:id="@+id/booking2"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_above="@+id/booking5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/time" />
+
+    <ImageView
+        android:id="@+id/booking5"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/doctoricon" />
+
+
+</RelativeLayout>

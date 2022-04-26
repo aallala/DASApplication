@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/first"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="15dp"
+                android:background="@color/teal_200"
+                tools:ignore="MissingConstraints,OnClick">
+
+                <TextView
+                    android:id="@+id/today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:text="@string/_12_03_2022"
+                    android:textColor="@color/teal_200"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/second"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="15dp"
+                tools:ignore="MissingConstraints,OnClick">
+
+                <TextView
+                    android:id="@+id/tomorrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:text="@string/_13_03_2022"
+                    android:textColor="@color/teal_200"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/third"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:onClick="getChage"
+                app:cardCornerRadius="15dp"
+                tools:ignore="MissingConstraints,OnClick">
+
+                <TextView
+                    android:id="@+id/date1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:text="@string/_14_03_2022"
+                    android:textColor="@color/teal_200"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fourth"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="15dp"
+                tools:ignore="MissingConstraints,OnClick">
+
+                <TextView
+                    android:id="@+id/date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:text="@string/_15_03_2022"
+                    android:textColor="@color/teal_200"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="734dp"
+        android:layout_height="608dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="123dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="737dp"
+        android:layout_height="731dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="0dp"></FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

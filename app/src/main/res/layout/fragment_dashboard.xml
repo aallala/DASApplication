@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/custom_white"
+    tools:context=".DashboardFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/abhaya_libre"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/dashboardname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/abhaya_libre"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_dr"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/abhaya_libre"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="192dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="@string/op_dashboard"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50sp"
+            android:text="@string/doctors_dashboard" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100sp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="@string/completed_op"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/completedOP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="100sp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="AOS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="100sp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="@string/pending_op"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/pendingOp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="100sp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="ABS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
